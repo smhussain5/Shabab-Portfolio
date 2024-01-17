@@ -123,10 +123,23 @@ function App() {
       {/* SHOWCASE */}
       < section className="p-6" >
         <h1 className="mb-4">SHOWCASE</h1>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
           <div className="flex flex-col">
             <div className="card w-full shadow-md">
-              <figure><img src="/project_images/ATM_OOP_PYTHON.gif" alt="ATM OOP PYTHON" /></figure>
+              <figure><img src="/project_images/FLASKY_CHAT_PYTHON_LI.gif" alt="FLASKY CHAT PYTHON" /></figure>
+              <div className="card-body flex flex-col text-left p-4">
+                <h2 className="card-title">Flasky Chat</h2>
+                <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, quae?</small>
+                <div className="card-actions join gap-0">
+                  <a href="https://github.com/smhussain5/Flask-SocketIO-Chat-Python" className="join-item btn btn-sm btn-outline btn-neutral" target="_blank">GitHub</a>
+                  <a href="https://bit.ly/flablue-chat" className="join-item btn btn-sm btn-outline btn-primary" target="_blank">Live Demonstration</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col">
+            <div className="card w-full shadow-md">
+              <figure><img src="/project_images/ATM_PYTHON.gif" alt="ATM OOP PYTHON" /></figure>
               <div className="card-body flex flex-col text-left p-4">
                 <h2 className="card-title">Automatic Teller Machine</h2>
                 <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, quae?</small>
@@ -144,19 +157,6 @@ function App() {
                 <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, quae?</small>
                 <div className="card-actions join gap-0">
                   <a href="https://github.com/smhussain5/Politico-NLP-Python" className="join-item btn btn-sm btn-outline btn-neutral" target="_blank">GitHub</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col">
-            <div className="card w-full shadow-md">
-              <figure><img src="/project_images/FLASKY_CHAT_PYTHON_LI.gif" alt="FLASKY CHAT PYTHON" /></figure>
-              <div className="card-body flex flex-col text-left p-4">
-                <h2 className="card-title">Flasky Chat</h2>
-                <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, quae?</small>
-                <div className="card-actions join gap-0">
-                  <a href="https://github.com/smhussain5/Flask-SocketIO-Chat-Python" className="join-item btn btn-sm btn-outline btn-neutral" target="_blank">GitHub</a>
-                  <a href="https://bit.ly/flablue-chat" className="join-item btn btn-sm btn-outline btn-primary" target="_blank">Live Demonstration</a>
                 </div>
               </div>
             </div>
