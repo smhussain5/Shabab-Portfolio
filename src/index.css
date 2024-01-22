@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
-  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -24,9 +28,9 @@ body {
 }
 
 h1 {
-  color: #3b82f6;
-  font-family: 'Poppins', sans-serif;
+  color: #38bdf8;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 3.2em;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 1.1;
 }
