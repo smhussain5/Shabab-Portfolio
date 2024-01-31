@@ -234,7 +234,7 @@ function App() {
       </section >
       {/* FOOTER */}
       < footer className="footer justify-center p-4 w-full text-lime-500 shadow h-16" >
-        <p>Shabab Hussain © {new Date().getFullYear()} - All right reserved</p>
+        <p>Shabab Hussain © {new Date().getFullYear()} - All rights reserved</p>
       </footer >
     </div >
   )
