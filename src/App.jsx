@@ -26,9 +26,9 @@ function App() {
           </ul>
         </div>
         <div className="navbar-end">
-          <button className="btn btn-primary font-['Poppins'] uppercase font-semibold">
+          <a href="/Shabab_Hussain_Resume_2024.pdf" className="btn btn-primary font-['Poppins'] uppercase font-semibold" download="Shabab Hussain Resume">
             Resume
-          </button>
+          </a>
         </div>
       </div>
       {/* HERO */}
